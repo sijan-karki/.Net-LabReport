@@ -32,7 +32,7 @@ namespace LabReport_Csit_SijanKarki
             Console.WriteLine("This is static constructor of car class\n");
         }
      
-        private Car(string name)
+        private Car(String name)
         {
             Console.WriteLine("Your car manufacturing company is ::"+name);
             Console.WriteLine("This is private constructor");
