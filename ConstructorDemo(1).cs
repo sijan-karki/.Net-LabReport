@@ -31,21 +31,21 @@ namespace LabReport_Csit_SijanKarki
             Console.WriteLine("The car no of car is "+carNO);
             Console.WriteLine("This is static constructor of car class\n");
         }
-     /*
-        private Car()
+     
+        private Car(string name)
         {
+            Console.WriteLine("Your car manufacturing company is ::"+name);
             Console.WriteLine("This is private constructor");
-        } 
-     */
-
-    }
-    internal class ConstructorDemo
-    {
+        }
         static void Main(string[] args) {
 
             Car c2 = new Car("Maruti Suzuki", "Suxuki530");
             Car c1=new Car();
             Car c3 = new Car(c2);
+            Car c4 =new Car("Tata");
+            Console.WriteLine("\n Lab NO :1");
+            Console.WriteLine(" Name : Sijan Karki");
+            Console.WriteLine(" Roll No:28");
         }
     }
 }
