@@ -18,6 +18,9 @@ namespace LabReport_Csit_SijanKarki
             WriteToFile(filePath, inputText);
 
             Console.WriteLine("Data has been written to the file successfully.");
+             Console.WriteLine("\n Lab NO :8'c'");
+            Console.WriteLine(" Name : Sijan Karki");
+            Console.WriteLine(" Roll No:28");
         }
 
         static void WriteToFile(string filePath, string content)
@@ -31,9 +34,7 @@ namespace LabReport_Csit_SijanKarki
             {
                 Console.WriteLine("An error occurred: " + ex.Message);
             }
-            Console.WriteLine("\n Lab NO :8'c'");
-            Console.WriteLine(" Name : Sijan Karki");
-            Console.WriteLine(" Roll No:28");
+           
         }
     }
 }
