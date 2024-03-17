@@ -16,7 +16,7 @@ namespace LabReport_Csit_SijanKarki
     {
         public void Perimeter(int length, int breadth)
         {
-            Console.WriteLine("The area of rectangle is::" + 2*(length * breadth));
+            Console.WriteLine("The perimeter of rectangle is::" + 2*(length * breadth));
         }
     }
     internal class MulticastingDemo
