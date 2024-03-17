@@ -18,7 +18,7 @@ namespace LabReport_Csit_SijanKarki
             WriteToFile(filePath, inputText);
 
             Console.WriteLine("Data has been written to the file successfully.");
-             Console.WriteLine("\n Lab NO :8'c'");
+             Console.WriteLine("\n Lab NO :12");
             Console.WriteLine(" Name : Sijan Karki");
             Console.WriteLine(" Roll No:28");
         }
